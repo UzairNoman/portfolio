@@ -19,7 +19,7 @@ const IconLogo = () => (
         />
       </g>
     </g>
-    <text x="27" y="65" fill="currentColor" font-size="50px" font-family="Lucida Console">U</text>
+    <text x="27" y="65" fill="currentColor" fontSize="50px" font-family="Lucida Console">U</text>
   </svg>
 );
 
