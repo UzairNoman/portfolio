@@ -1,5 +1,5 @@
 ---
-date: '2017-12-21'
+date: '2021-12-21'
 title: 'Frontend Software Engineer'
 company: 'Folio3'
 location: 'Karachi, Pakistan'

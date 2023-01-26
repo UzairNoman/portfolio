@@ -7,7 +7,7 @@ module.exports = {
       'Uzair Noman is a software engineer who love to code tinkering and data wringling.',
     siteUrl: 'https://uzairnoman.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@_UzairNoman_',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Uzair Noman',
+        short_name: 'Uzair Noman',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

@@ -1,5 +1,5 @@
 ---
-date: '2015-12-21'
+date: '2022-12-21'
 title: 'Software Engineer'
 company: 'Clypps (formerly Zesavi)'
 location: 'Munich, Germany'

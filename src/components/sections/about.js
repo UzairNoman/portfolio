@@ -147,11 +147,11 @@ const About = () => {
             </p>
 
             <p>
-              Looking back, I’ve working at{' '}
-              <a href="https://us.mullenlowe.com/">an emerging chatbot company</a>,{' '}
-              <a href="https://starry.com/">IT developement & consulting business</a>,{' '}
-              <a href="https://www.folio.com/">a California based software development company</a>, and{' '}
-              <a href="https://clypp.com/">a smart video documentation startup in Munich, Germany</a>.
+              Looking back, I’ve worked at{' '}
+              <a href="https://botsify.com/">an emerging chatbot company</a>,{' '}
+              <a href="https://www.techlogix.com/">IT developement & consulting business</a>,{' '}
+              <a href="https://folio3.com/">a California based software development company</a>, and{' '}
+              <a href="https://getclypp.com/en/">a smart video documentation startup in Munich, Germany</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

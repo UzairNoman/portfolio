@@ -1,5 +1,5 @@
 ---
-date: '2018-05-14'
+date: '2023-01-14'
 title: 'Research Assisant (Master thesis)'
 company: 'Fraunhofer'
 location: 'Kassel, Germany'

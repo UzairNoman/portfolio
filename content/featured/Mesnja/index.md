@@ -2,12 +2,10 @@
 date: '3'
 title: 'Mesnja'
 cover: './demo.jpg'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://www.mesnja.com/'
 tech:
   - ReactJS
   - Laravel
-  - Blade Templating
   - REST API
   - CSS/SASS
   - AWS
