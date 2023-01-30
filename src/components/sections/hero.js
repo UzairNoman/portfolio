@@ -61,13 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Uzair Noman.</h2>;
-  const three = <h3 className="big-heading">I ♥ code tinkering and data wringling.</h3>;
+  const three = <h3 className="big-heading">I ♥ code tinkering and data wrangling.</h3>;
   const four = (
     <>
       <p>
-        Versatile T-shaped Software Engineer who is constantly seeking new challenges
-        and opportunities. Currently, I’m focused on feature engineering and application
-        of Deep Learning Generative models for anomaly detection in District heating systems at{' '}
+        Versatile T-shaped Software Engineer who is constantly seeking new challenges and
+        opportunities. Currently, I’m focused on feature engineering and application of Deep
+        Learning Generative models for anomaly detection in District heating systems at{' '}
         <a href="https://www.iee.fraunhofer.de/" target="_blank" rel="noreferrer">
           Fraunhofer IEE
         </a>
@@ -75,15 +75,15 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Check out my course!
+  //   </a>
+  // );
 
   const items = [one, two, three, four];
 

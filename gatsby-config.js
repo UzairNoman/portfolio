@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Uzair Noman',
     description:
-      'Uzair Noman is a software engineer who love to code tinkering and data wringling.',
+      'Uzair Noman is a software engineer who love to code tinkering and data wrangling.',
     siteUrl: 'https://uzairnoman.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@_UzairNoman_',
