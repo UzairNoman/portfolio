@@ -35,7 +35,7 @@ const StyledPortfolioSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
@@ -145,9 +145,9 @@ const Portfolio = () => {
   const [open, setOpen] = React.useState(false);
   const [showMore, setShowMore] = React.useState(false);
   const [idx, setIdx] = React.useState(0);
-  const GRID_LIMIT = 4;
-  const firstFour = certificates.slice(0, GRID_LIMIT);
-  const certsToShow = showMore ? certificates : firstFour;
+  const GRID_LIMIT = 3;
+  const firstRow = certificates.slice(0, GRID_LIMIT);
+  const certsToShow = showMore ? certificates : firstRow;
   useEffect(() => {
     if (prefersReducedMotion) {
       return;

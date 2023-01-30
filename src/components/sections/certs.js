@@ -176,6 +176,7 @@ const Certs = () => {
                   width={200}
                   height={133}
                   quality={55}
+                  layout="fixed"
                   formats={['AUTO', 'WEBP', 'AVIF']}
                   alt="Headshot"
                 />
