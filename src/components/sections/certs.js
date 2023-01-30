@@ -83,7 +83,6 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
@@ -138,7 +137,10 @@ const Certs = () => {
   `);
 
   const certificates = data.allFile.edges.filter(({ node }) => node);
-  const images = certificates.map(({ node }) => ({ src: node.childImageSharp.fluid.src, alt: node.name }));
+  const images = certificates.map(({ node }) => ({
+    src: node.childImageSharp.fluid.src,
+    alt: node.name,
+  }));
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
   const [open, setOpen] = React.useState(false);

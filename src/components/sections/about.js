@@ -81,7 +81,6 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
@@ -125,7 +124,15 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Angular', 'Python', 'Java', 'Docker'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Angular',
+    'Python',
+    'Java',
+    'Docker',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,15 +142,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            As a highly motivated and skilled web developer, it has been my pleasure to accumulate 
-            a diverse range of experience in the field. Started with designing logos for a tourist startup,
-            and later making projects on HTML, SASS such as{' '}
-            <a href="https://www.iee.fraunhofer.de/" target="_blank" rel="noreferrer">
-              TheJacketMaker (formerly, IRTEKA).  
-            </a>{' '}
-            Always took Software Engineer as more than a job and got
-            the chance to briefly work on Backend MVC frameworks like Java Spring, Laravel and Django and
-            also excelled myself in the Frontend area by working on JavaScript/TypeScript, Angular and React.
+              As a highly motivated and skilled web developer, it has been my pleasure to accumulate
+              a diverse range of experience in the field. Started with designing logos for a tourist
+              startup, and later making projects on HTML, SASS such as{' '}
+              <a href="https://www.iee.fraunhofer.de/" target="_blank" rel="noreferrer">
+                TheJacketMaker (formerly, IRTEKA).
+              </a>{' '}
+              Always took Software Engineer as more than a job and got the chance to briefly work on
+              Backend MVC frameworks like Java Spring, Laravel and Django and also excelled myself
+              in the Frontend area by working on JavaScript/TypeScript, Angular and React.
             </p>
 
             <p>
@@ -151,7 +158,10 @@ const About = () => {
               <a href="https://botsify.com/">an emerging chatbot company</a>,{' '}
               <a href="https://www.techlogix.com/">IT developement & consulting business</a>,{' '}
               <a href="https://folio3.com/">a California based software development company</a>, and{' '}
-              <a href="https://getclypp.com/en/">a smart video documentation startup in Munich, Germany</a>.
+              <a href="https://getclypp.com/en/">
+                a smart video documentation startup in Munich, Germany
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
