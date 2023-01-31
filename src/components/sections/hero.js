@@ -66,12 +66,12 @@ const Hero = () => {
     <>
       <p>
         Versatile T-shaped Software Engineer who is constantly seeking new challenges and
-        opportunities. Currently, I’m focused on feature engineering and application of Deep
-        Learning Generative models for anomaly detection in District heating systems at{' '}
+        opportunities. Currently, I’m delved into the topic on feature engineering and application
+        of Deep Learning Generative models for anomaly detection in District heating systems at{' '}
         <a href="https://www.iee.fraunhofer.de/" target="_blank" rel="noreferrer">
           Fraunhofer IEE
-        </a>
-        .
+        </a>{' '}
+        for my master thesis.
       </p>
     </>
   );
