@@ -55,23 +55,24 @@ const StyledPic = styled.div`
     margin: 50px auto 0;
     width: 70%;
   }
-
+  @media (max-width: 1080px) {
+    .wrapper {
+      height: 95px !important;
+    }
+  }
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: #fff;
+    overflow: hidden;
+    height: 125px;
 
     &:hover,
     &:focus {
       outline: 0;
-
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
 
       .img {
         filter: none;
@@ -83,17 +84,6 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
-    }
-
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--border-radius);
       transition: var(--transition);
     }
 
@@ -125,7 +115,7 @@ const Portfolio = () => {
             relativePath
             childImageSharp {
               gatsbyImageData
-              fluid(maxWidth: 800) {
+              fluid(maxWidth: 1500) {
                 ...GatsbyImageSharpFluid
               }
             }
