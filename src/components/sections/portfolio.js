@@ -126,12 +126,9 @@ const Portfolio = () => {
   `);
 
   const certificates = data.allFile.edges.filter(({ node }) => node);
-  console.log(certificates);
-  certificates.sort(function (a, b) {
+  certificates.sort(function(a, b) {
     return a.node.name.localeCompare(b.node.name);
   });
-  console.log('Sorted');
-  console.log(certificates);
   const images = certificates.map(({ node }) => ({
     src: node.childImageSharp.fluid.src,
     alt: node.name,
@@ -143,7 +140,6 @@ const Portfolio = () => {
   const [idx, setIdx] = React.useState(0);
   const GRID_LIMIT = 3;
   const firstRow = certificates.slice(0, GRID_LIMIT);
-  console.log(firstRow);
   const certsToShow = showMore ? certificates : firstRow;
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -158,7 +154,6 @@ const Portfolio = () => {
 
       <div className="inner">
         {certsToShow.map(({ node }, i) => {
-          console.log(node.name);
           const path = node.childImageSharp.gatsbyImageData;
           return (
             <StyledPic key={node.id}>
