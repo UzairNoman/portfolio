@@ -127,7 +127,7 @@ const Portfolio = () => {
 
   const certificates = data.allFile.edges.filter(({ node }) => node);
   certificates.sort(function(a, b) {
-    return a.name - b.name;
+    return a.node.name - b.node.name;
   });
   const images = certificates.map(({ node }) => ({
     src: node.childImageSharp.fluid.src,
