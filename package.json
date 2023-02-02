@@ -25,9 +25,6 @@
   "lint-staged": {
     "*.{js,css,json,md}": [
       "prettier --write"
-    ],
-    "*.js": [
-      "eslint --fix"
     ]
   },
   "dependencies": {
