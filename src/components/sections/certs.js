@@ -128,6 +128,9 @@ const Certs = () => {
   `);
 
   const certificates = data.allFile.edges.filter(({ node }) => node);
+  certificates.sort(function(a, b) {
+    return a.name - b.name;
+  });
   const images = certificates.map(({ node }) => ({
     src: node.childImageSharp.fluid.src,
     alt: node.name,
