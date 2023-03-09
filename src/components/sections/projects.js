@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
@@ -189,8 +189,8 @@ const Projects = () => {
       }
     }
   `);
-
-  const [showMore, setShowMore] = useState(false);
+  const showMore = false;
+  // const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
@@ -234,7 +234,8 @@ const Projects = () => {
                   aria-label="External Link"
                   className="external"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <Icon name="External" />
                 </a>
               )}
@@ -287,13 +288,15 @@ const Projects = () => {
                   key={i}
                   classNames="fadeup"
                   timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
-                  exit={false}>
+                  exit={false}
+                >
                   <StyledProject
                     key={i}
                     ref={el => (revealProjects.current[i] = el)}
                     style={{
                       transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
-                    }}>
+                    }}
+                  >
                     {projectInner(node)}
                   </StyledProject>
                 </CSSTransition>
@@ -302,9 +305,9 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
     </StyledProjectsSection>
   );
 };
