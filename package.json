@@ -1,11 +1,11 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Uzair Noman - Portfolio",
   "version": "1.0.0",
   "author": "Uzair Noman <s.uzairnoman@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/UzairNoman"
   },
   "keywords": [
     "gatsby"
