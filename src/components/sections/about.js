@@ -145,7 +145,7 @@ const About = () => {
               As a highly motivated and skilled web developer, it has been my pleasure to accumulate
               a diverse range of experience in the field. Started with designing logos for a tourist
               startup, and later making projects on HTML, SASS such as{' '}
-              <a href="https://www.iee.fraunhofer.de/" target="_blank" rel="noreferrer">
+              <a href="https://www.thejacketmaker.com/" target="_blank" rel="noreferrer">
                 TheJacketMaker (formerly, IRTEKA).
               </a>{' '}
               Always took Software Engineer as more than a job and got the chance to briefly work on
